@@ -1,0 +1,27 @@
+{
+  "source_flat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/final_flat.jsonl",
+  "source_chat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/final.jsonl",
+  "output_dir": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits",
+  "counts": {
+    "train": 126827,
+    "valid": 14751,
+    "test": 2506
+  },
+  "total": 144084,
+  "missing_or_unknown_split": 0,
+  "flat_chat_id_mismatch": 0,
+  "files": {
+    "train": {
+      "flat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits/final_flat.train.jsonl",
+      "chat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits/final.train.jsonl"
+    },
+    "valid": {
+      "flat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits/final_flat.valid.jsonl",
+      "chat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits/final.valid.jsonl"
+    },
+    "test": {
+      "flat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits/final_flat.test.jsonl",
+      "chat": "/Users/bytedance/Documents/py-space/train002/data_final_phonetic/splits/final.test.jsonl"
+    }
+  }
+}
